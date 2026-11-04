@@ -1,0 +1,351 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TIENDA DE ROPA | Indumentaria Masculina</title>
+
+    <meta name="description" content="Descubrí nuestra colección de indumentaria masculina. Estilo urbano, comodidad y personalidad.">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="header">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                TIENDA<span> DE ROPA.</span>
+            </a>
+
+            <nav class="nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <a href="#productos" class="nav-button">
+                VER COLECCIÓN
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- PORTADA PRINCIPAL -->
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <p class="hero-label">
+                    NUEVA COLECCIÓN
+                </p>
+
+                <h1>
+                    TU ESTILO.<br>
+                    <span>TUS REGLAS.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Prendas pensadas para destacar.
+                    Encontrá tu estilo y llevá tu personalidad
+                    a otro nivel.
+                </p>
+
+                <a href="#productos" class="primary-button">
+                    EXPLORAR PRODUCTOS
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=1200"
+                    alt="Colección de indumentaria urbana masculina"
+                >
+            </div>
+
+            <div class="hero-decoration">
+                STYLE / 2026
+            </div>
+
+        </section>
+
+
+            <!-- CATEGORÍAS -->
+            <section class="categories container">
+
+                <div class="section-heading">
+                    <p class="section-label">ENCONTRÁ TU ESTILO</p>
+                    <h2>EXPLORÁ <span>CATEGORÍAS</span></h2>
+                </div>
+
+                <div class="category-grid">
+
+                    <a href="#productos" class="category-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=700"
+                            alt="Remeras"
+                        >
+                        <h3>REMERAS</h3>
+                    </a>
+
+                    <a href="#productos" class="category-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=700"
+                            alt="Pantalones"
+                        >
+                        <h3>PANTALONES</h3>
+                    </a>
+
+                    <a href="#productos" class="category-card">
+                        <img
+                            src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700"
+                            alt="Camperas"
+                        >
+                        <h3>CAMPERAS</h3>
+                    </a>
+
+                </div>
+
+            </section>
+
+
+        
+    
+<!-- PRODUCTOS DESTACADOS -->
+<section class="products-section" id="productos">
+
+    <div class="container">
+
+        <div class="section-heading">
+            <p class="section-label">SELECCIÓN ESPECIAL</p>
+            <h2>PRODUCTOS <span>DESTACADOS</span></h2>
+            <p class="section-description">
+                Descubrí algunos de nuestros favoritos.
+            </p>
+        </div>
+
+        <!-- FILTROS -->
+        <div class="product-filters">
+
+            <button class="filter-button active" data-filter="todos">
+                TODOS
+            </button>
+
+            <button class="filter-button" data-filter="remeras">
+                REMERAS
+            </button>
+
+            <button class="filter-button" data-filter="pantalones">
+                PANTALONES
+            </button>
+
+            <button class="filter-button" data-filter="camperas">
+                CAMPERAS
+            </button>
+
+        </div>
+
+
+        <!-- GRILLA DE PRODUCTOS -->
+        <div class="product-grid">
+
+            <!-- PRODUCTO 1 -->
+            <article class="product-card" data-category="remeras">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=700"
+                        alt="Remera urbana"
+                    >
+                    <span class="product-tag">DESTACADO</span>
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">REMERAS</p>
+                    <h3>Remera Urban Basic</h3>
+                    <p class="product-price">$25.000</p>
+
+                    <a href="#contacto" class="product-button">
+                        CONSULTAR
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 2 -->
+            <article class="product-card" data-category="pantalones">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=700"
+                        alt="Pantalón urbano"
+                    >
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">PANTALONES</p>
+                    <h3>Pantalón Cargo</h3>
+                    <p class="product-price">$42.000</p>
+
+                    <a href="#contacto" class="product-button">
+                        CONSULTAR
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 3 -->
+            <article class="product-card" data-category="camperas">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=700"
+                        alt="Campera urbana"
+                    >
+                    <span class="product-tag">NUEVO</span>
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">CAMPERAS</p>
+                    <h3>Campera Street</h3>
+                    <p class="product-price">$65.000</p>
+
+                    <a href="#contacto" class="product-button">
+                        CONSULTAR
+                    </a>
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCTO 4 -->
+            <article class="product-card" data-category="remeras">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=700"
+                        alt="Conjunto de moda urbana"
+                    >
+                </div>
+
+                <div class="product-info">
+                    <p class="product-category">URBAN STYLE</p>
+                    <h3>Look Streetwear</h3>
+                    <p class="product-price">$58.000</p>
+
+                    <a href="#contacto" class="product-button">
+                        CONSULTAR
+                    </a>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+            </section>
+
+
+        <!-- NOSOTROS -->
+        <section class="about-section container" id="nosotros">
+
+            <div class="about-image">
+                <img
+                    src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd47?w=1000"
+                    alt="Estilo de indumentaria urbana"
+                >
+            </div>
+
+            <div class="about-content">
+
+                <p class="section-label">NUESTRA IDENTIDAD</p>
+
+                <h2>
+                    NO SEGUIMOS<br>
+                    TENDENCIAS.<br>
+                    <span>CREAMOS ESTILO.</span>
+                </h2>
+
+                <p>
+                    Creemos que la ropa es una forma de expresión.
+                    Por eso buscamos prendas que combinen diseño,
+                    comodidad y personalidad.
+                </p>
+
+                <a href="#productos" class="primary-button">
+                    DESCUBRIR COLECCIÓN
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section class="contact-section" id="contacto">
+
+            <div class="container contact-content">
+
+                <p class="section-label">¿TENÉS ALGUNA CONSULTA?</p>
+
+                <h2>
+                    TU PRÓXIMO LOOK<br>
+                    <span>EMPIEZA ACÁ.</span>
+                </h2>
+
+                <p>
+                    Consultanos por talles, colores y disponibilidad.
+                </p>
+
+                <a href="#" class="whatsapp-button">
+                    CONSULTAR POR WHATSAPP
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#" class="logo">
+                TIENDA<span> DE ROPA.</span>
+            </a>
+
+            <p>
+                © 2026 TIENDA DE ROPA. Todos los derechos reservados.
+            </p>
+
+            <a href="#inicio" class="back-to-top">
+                VOLVER ARRIBA ↑
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
